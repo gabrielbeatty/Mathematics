@@ -1,3 +1,4 @@
+
 ul {
     background-color: red
 }
@@ -10,4 +11,7 @@ head {
 }
 body {
     overflow-x: hidden;
+}
+h2, p {
+  margin: 10vw;
 }
