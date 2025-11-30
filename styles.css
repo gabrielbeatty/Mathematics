@@ -12,6 +12,6 @@ head {
 body {
     overflow-x: hidden;
 }
-h2, p {
+p {
   margin: 10vw;
 }
