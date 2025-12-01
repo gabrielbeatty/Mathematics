@@ -16,5 +16,10 @@ h2 {
     background-color: #e427f5;
 }
 .button-link {
-    background-color: #f5e427;
+  background-color: #f5e427;
+  display: block;
+  font-size: 16pt;
+  color: black;
+  padding: 14px 16px;
+  text-decoration: none;
 }
