@@ -4,14 +4,15 @@ ul {
 }
 
 p {
-    background-color: yellow;
+    background-color: #3f88c5;
 }
 head {
     background-color: blue;
 }
 body {
+    background-color: #ffba08;
     overflow-x: hidden;
 }
-p {
-  margin: 10vw;
+h2 {
+    background-color: red;
 }
