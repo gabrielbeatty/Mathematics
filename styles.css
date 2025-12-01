@@ -1,5 +1,6 @@
 
 ul {
+    display: inline-flex;
     background-color: #f5e427
 }
 
@@ -13,9 +14,11 @@ body {
     overflow-x: hidden;
 }
 h2 {
+    display: inline-block;
     background-color: #e427f5;
 }
 a.button-link {
+  margin: 2vw;
   background-color: #f5e427;
   display: inline-block;
   font-size: 16pt;
