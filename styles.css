@@ -1,18 +1,17 @@
 
 ul {
-    background-color: red
+    background-color: #840032
 }
 
 p {
-    background-color: #3f88c5;
+    background-color: #e59500;
 }
-head {
-    background-color: blue;
-}
+
+
 body {
-    background-color: #ffba08;
+    background-color:#002642;
     overflow-x: hidden;
 }
 h2 {
-    background-color: red;
+    background-color: #840032;
 }
