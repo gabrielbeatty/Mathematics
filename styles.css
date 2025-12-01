@@ -15,3 +15,6 @@ body {
 h2 {
     background-color: #e427f5;
 }
+ul li a:hover {
+  background-color: white;
+}
