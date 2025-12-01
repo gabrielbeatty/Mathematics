@@ -27,3 +27,8 @@ a.button-link {
   padding: 14px 16px;
   text-decoration: none;
 }
+a.site-logo {
+  max-width: 300px;
+  height: auto;    
+  display: block; 
+}
