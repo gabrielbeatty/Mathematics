@@ -17,7 +17,7 @@ h2 {
 }
 .button-link {
   background-color: #f5e427;
-  display: block;
+  display: inline-block;
   font-size: 16pt;
   color: black;
   padding: 14px 16px;
