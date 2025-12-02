@@ -36,16 +36,16 @@ a.button-link {
   text-decoration: none;
 }
 a.site-logo {
-  max-width: 300px;
+  max-width: 200px;
   height: auto;    
   display: block; 
 }
 
 .logo-title-group {
     display: flex;
-    align-items: center;
+    align-items: auto;
     margin-left: 2vw;
-    gap: 5vw;          
+    gap: 15vw;          
 }
 .mainNav {
     display: flex;
