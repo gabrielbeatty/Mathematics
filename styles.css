@@ -39,3 +39,6 @@ a.site-logo {
     margin-left: 2vw;
     gap: 20vw;          
 }
+.mainNav {
+    display: flex;
+}
