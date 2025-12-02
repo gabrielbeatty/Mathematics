@@ -16,7 +16,9 @@ body {
 }
 h2 {
     display: inline-block;
+    align-items: center;
     background-color: #e427f5;
+    font-size: x-large;
 }
 a.button-link {
   margin: 2vw;
@@ -37,7 +39,7 @@ a.site-logo {
     display: flex;
     align-items: center;
     margin-left: 2vw;
-    gap: 20vw;          
+    gap: 5vw;          
 }
 .mainNav {
     display: flex;
