@@ -35,6 +35,7 @@ a.site-logo {
 
 .logo-title-group {
     display: flex;
-    align-items: left;
+    align-items: center;
+    margin-left: 2vw;
     gap: 20vw;          
 }
