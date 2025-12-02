@@ -54,3 +54,8 @@ a.site-logo {
     max-width: 50vw;
     display: flex;
 }
+.image {
+    max-width: 30vw;
+    margin-left: 30vw;
+    margin-right: 30vw;
+}
