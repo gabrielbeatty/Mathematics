@@ -13,6 +13,11 @@ body {
   padding: 0;
 }
 
+h1 {
+  color:#f5e427;
+  font-size: clamp(2rem, 5vw, 4rem);
+}
+
 h2, p {
   font-size: 16pt;
   margin: 2vw;
@@ -43,14 +48,6 @@ ul li a:hover {
 
 <body>
     <header>
-
-        <!--<a href="/" class="logo-link">
-            <img src="your-logo.png" alt="Company Logo" class="logo">
-        </a>-->
-
-        <h1>
-            <!--home page title-->
-        </h1>
         <nav class="main nav">
             <ul>
                 <li><a href="index.html"class="nav-button">Home</a></li>
@@ -60,14 +57,13 @@ ul li a:hover {
                 <li><a href="graphs.html"class="nav-button">Graphs</a></li>                                
             </ul>
         </nav>
-        <a href="/Mathematics/"><img src="logo.png" class="site-logo" style="width:15vw; height:auto" alt="logo"></a>
+        <div class="logo-title-group">
+            <a href="/Mathematics/"><img src="logo.png" class="site-logo" style="width:15vw; height:auto" alt="logo"></a>
+            <h1 class="page-title">Geometry</h1>
+        </div>
     </header>
     <main>
-
-        <!--homepage image-->
-
-        <h2>Geometry</h2>
-
+        <h2>Why is This Important?</h2>
             <p>Geometry is math that deals with shapes, their size, and how they are arranged in space. It's about understanding things like points, lines, angles, and shapes like circles and squares, which can be found all around the natural world, architecture, and art and design. You can think of it as the study of "where things are" and how they fit together. 
             Geometry gives us a way to describe and talk about shapes. It is especially useful construction and design. But, it also helps us describe the natural world.</p>
 
@@ -76,7 +72,4 @@ ul li a:hover {
         <a href="https://www.mathlearningcenter.org/apps/geoboard" class="button-link" target="_blank">Geoboard App</a>
 
     </main>
-
-        <!--<script src="JAVASCRIPT FILE"></script>-->
-        <!--ADD MATH APPS FOR INTERACTION...(JAVA?? UNSURE)-->
 </body>

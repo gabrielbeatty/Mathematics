@@ -13,6 +13,11 @@ body {
   padding: 0;
 }
 
+h1 {
+  color:#f5e427;
+  font-size: clamp(2rem, 5vw, 4rem);
+}
+
 h2, p {
   font-size: 16pt;
   margin: 2vw;
@@ -44,14 +49,6 @@ ul li a:hover {
 
 <body>
     <header>
-
-        <!--<a href="/" class="logo-link">
-            <img src="your-logo.png" alt="Company Logo" class="logo">
-        </a>-->
-
-        <h1>
-            <!--home page title-->
-        </h1>
         <nav class="main nav">
             <ul>
                 <li><a href="index.html"class="nav-button">Home</a></li>
@@ -61,14 +58,13 @@ ul li a:hover {
                 <li><a href="graphs.html"class="nav-button">Graphs</a></li>                                
             </ul>
         </nav>
-        <a href="/Mathematics/"><img src="logo.png" class="site-logo" style="width:15vw; height:auto" alt="logo"></a>
+        <div class="logo-title-group">
+            <a href="/Mathematics/"><img src="logo.png" class="site-logo" style="width:15vw; height:auto" alt="logo"></a>
+            <h1 class="page-title">Arithmetic</h1>
+        </div>
     </header>
     <main>
-
-        <!--homepage image-->
-
-        <h2>Arithmetic</h2>
-
+        <h2>Why is This Important?</h2>
             <p>Arithmetic is the foundation of all math. It includes working with numbers using the operations of addition, subtraction, multiplication and division. Understanding arithmetic will help boost your problem-solving skills. It is a crucial life skill, and it can be a lot of fun! All the other math you will encounter in school is built on arithmetic. </p>
 
         <a href="https://www.mathlearningcenter.org/apps/fractions" class="button-link" target="_blank">Fractions App</a>
@@ -76,7 +72,4 @@ ul li a:hover {
         <a href="https://www.mathlearningcenter.org/apps/number-frames" class="button-link" target="_blank">Number-Frames App</a>
 
     </main>
-
-        <!--<script src="JAVASCRIPT FILE"></script>-->
-        <!--ADD MATH APPS FOR INTERACTION...(JAVA?? UNSURE)-->
 </body>
