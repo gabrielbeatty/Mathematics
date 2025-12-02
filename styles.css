@@ -27,16 +27,17 @@ h2 {
     font-size: x-large;
 }
 a.button-link {
-  margin: 2vw;
+  margin-left:5vw;
+  margin-right:5vw;
   background-color: #f5e427;
   display: inline-block;
-  font-size: 16pt;
+  font-size: 1.5rem;
   color: black;
   padding: 14px 16px;
   text-decoration: none;
 }
 a.site-logo {
-  max-width: 200px;
+  max-width: 100px;
   height: auto;    
   display: block; 
 }
@@ -45,7 +46,8 @@ a.site-logo {
     font-size: 2rem;
     display: flex;
     align-items: auto;
-    margin-left: 2vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
     gap: 15vw;          
 }
 .mainNav {
