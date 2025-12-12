@@ -36,7 +36,6 @@ a.button-link {
   margin-bottom: 1rem;
   margin-left: 35vw;
   margin-right: auto;
-  text-align: center;
   text-decoration: none;
 }
 a.site-logo {
@@ -54,7 +53,7 @@ a.site-logo {
     gap: 15vw;          
 }
 .mainNav {
-    max-width: 50vw;
+    max-width: 100vw;
     display: flex;
 }
 .image {
