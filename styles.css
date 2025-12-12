@@ -1,7 +1,7 @@
 
 ul {
 
-    display: block;
+    display: inline-block;
     background-color: #f5e427
 }
 
@@ -55,15 +55,16 @@ a.site-logo {
 }
 .mainNav {
     max-width: 50vw;
-    display: flex;
+    display: block;
+    align-items: ;
 }
 @media screen and (max-width: 768px) { 
     .mainNav {
-        max-width: 100vw;       
-       
-        align-items: stretch; 
+        width: 100%;             /* Use full width of the screen */
+        display: flex;           /* Keep display as flex to use flex properties */
+        flex-direction: column;  /* Stack items vertically, one over the other */
+        align-items: stretch;    /* Ensure all links/buttons span the full width */
     }
-}
 .image {
     max-width: 30vw;
     margin-left: 30vw;
