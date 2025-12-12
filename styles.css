@@ -57,14 +57,16 @@ a.site-logo {
     max-width: 50vw;
     display: flex;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) { 
     .mainNav {
-        /* KEY FIX 1: Stack items vertically on mobile */
+        max-width: 100vw;
+       
         flex-direction: column; 
         
-        /* KEY FIX 2: Ensure items stretch to fill the full width */
-        align-items: stretch;   
+       
+        align-items: stretch; 
     }
+}
 .image {
     max-width: 30vw;
     margin-left: 30vw;
