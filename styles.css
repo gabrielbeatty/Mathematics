@@ -26,8 +26,8 @@ h2 {
     font-size: x-large;
 }
 a.button-link {
-  margin-left:auto;
-  margin-right:auto;
+  margin: left 25vw;;
+  margin: right 25vw;;
   background-color: #FF5733;
   display: inline-block;
   font-size: 1.5rem;
