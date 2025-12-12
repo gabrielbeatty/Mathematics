@@ -55,8 +55,8 @@ a.site-logo {
 }
 .mainNav {
     max-width: 50vw;
-    display: block;
-    align-items: ;
+    display: flex;
+    align-items: row;
 }
 @media screen and (max-width: 768px) { 
     .mainNav {
