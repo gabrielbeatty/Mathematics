@@ -65,13 +65,13 @@ a.site-logo {
      
         display: flex; 
         padding:0%;
-        height:min-content;
-        font-size: 16px; 
         max-width: fit-content;        
         flex-direction: column; 
     }
    ul li a {
         padding: 0%; 
+        font-size: 16px;
+        
    }
 }
 
