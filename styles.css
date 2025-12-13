@@ -62,17 +62,17 @@ a.site-logo {
 }
 @media screen and (max-width: 768px) { 
     ul {
-       /* width: 60%;             /* Use full width of the screen */
+     
         display: flex; 
+        height:min-content;
         font-size: x-small; 
-        max-width: fit-content;         /* Keep display as flex to use flex properties */
-        flex-direction: column;  /* Stack items vertically, one over the other */
+        max-width: fit-content;        
+        flex-direction: column; 
     }
-    li a{
-        font-size: x-small;
-    }
-
+   
 }
+
+
 
 
 .image {
