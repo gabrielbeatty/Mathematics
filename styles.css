@@ -70,7 +70,9 @@ a.site-logo {
         max-width: fit-content;        
         flex-direction: column; 
     }
-   
+   ul li a {
+        padding: 0%; 
+   }
 }
 
 
