@@ -64,7 +64,8 @@ a.site-logo {
     ul {
        /* width: 60%;             /* Use full width of the screen */
         display: flex; 
-        font-size: 1rem;          /* Keep display as flex to use flex properties */
+        font-size: small; 
+        max-width: fit-content;         /* Keep display as flex to use flex properties */
         flex-direction: column;  /* Stack items vertically, one over the other */
     /*    align-items: stretch;    /* Ensure all links/buttons span the full width */
     }
