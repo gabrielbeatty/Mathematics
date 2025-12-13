@@ -85,13 +85,10 @@ a.site-logo {
         /* Optional: Add a subtle border to visualize how slim the items are */
         /* border-bottom: 1px solid #ccc; */
     }
-    ul li a {
-        padding: 0; 
-          /* Minimal vertical padding for the links */
-        font-size: 16px;
+
        
     }
-}
+
 
 
 
