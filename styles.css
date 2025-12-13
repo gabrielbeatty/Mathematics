@@ -68,7 +68,7 @@ a.site-logo {
         max-width: fit-content;         /* Keep display as flex to use flex properties */
         flex-direction: column;  /* Stack items vertically, one over the other */
     }
-    li {
+    li a{
         font-size: x-small;
     }
 
