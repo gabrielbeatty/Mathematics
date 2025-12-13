@@ -55,7 +55,7 @@ a.site-logo {
     gap: 15vw;          
 }
 .mainNav {
-    max-width: 50vw;
+    max-width: 60vw;
     display: inline-block;
     flex-direction: row;
 }
