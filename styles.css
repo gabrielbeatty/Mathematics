@@ -55,22 +55,19 @@ a.site-logo {
     margin-right: 10vw;
     gap: 15vw;          
 }
+
 .mainNav {
     max-width: 60vw;
     display: inline-block;
     flex-direction: row;
 }
+
 @media screen and (max-width: 768px) { 
-    ul {
-     
-        display: flex; 
-        padding:0;
-        margin: 0;
-        max-width: fit-content; 
-        max-height: min-content;       
-        flex-direction: column; 
+    .mainNav { /* Target the parent container */
+        height: auto !important; /* Forces the height to be determined by content */
+        min-height: initial !important; /* Removes any minimum height constraint */
+        padding: 0 !important; /* Removes padding from the parent itself */
     }
-@media screen and (max-width: 768px) { 
     ul {
      
         display: flex; 
@@ -80,13 +77,19 @@ a.site-logo {
         flex-direction: column; 
         list-style-type: none;
     }
+    ul li {
+        margin: 0;            /* **Removes default margins on the LI elements** */
+        padding: 0;           /* Ensures no extra padding on the LI elements */
+        /* Optional: Add a subtle border to visualize how slim the items are */
+        /* border-bottom: 1px solid #ccc; */
+    }
     ul li a {
         padding: 2px 0;      /* Minimal vertical padding for the links */
         font-size: 16px;
         display: block;      /* Ensures padding makes the whole area clickable */
     }
 }
-}
+
 
 
 
