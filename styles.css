@@ -1,5 +1,6 @@
 
 ul {
+    max-width:min-content;
     background-color: black;
     display: flex;
     flex-direction: row;
