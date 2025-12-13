@@ -65,7 +65,7 @@ a.site-logo {
      
         display: flex; 
         height:min-content;
-        font-size: x-small; 
+        font-size: 16px; 
         max-width: fit-content;        
         flex-direction: column; 
     }
