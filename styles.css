@@ -61,7 +61,7 @@ a.site-logo {
 }
 @media screen and (max-width: 768px) { 
     ul {
-        width: 100%;             /* Use full width of the screen */
+       /* width: 60%;             /* Use full width of the screen */
         display: flex; 
         font-size: 1rem;          /* Keep display as flex to use flex properties */
         flex-direction: column;  /* Stack items vertically, one over the other */
