@@ -67,6 +67,7 @@ a.site-logo {
         flex-direction: column;  /* Stack items vertically, one over the other */
     /*    align-items: stretch;    /* Ensure all links/buttons span the full width */
     }
+}
 .image {
     max-width: 30vw;
     margin-left: 30vw;
