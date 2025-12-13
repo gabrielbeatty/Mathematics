@@ -32,7 +32,7 @@ h2, p {
 ul {
   display:flex;
   flex-direction: row;
-  width:50vw;
+  width:auto;
   list-style-type: none;
   margin: 2vw;
   margin-left: 10vw;
@@ -41,7 +41,8 @@ ul {
 
 @media screen and (max-width: 768px) { 
     ul {
-        width: 100%; 
+        max-width: 100%; 
+        width:auto;
         height:auto;            /* Use full width of the screen */
         display: flex;           /* Keep display as flex to use flex properties */
         flex-direction: column;  /* Stack items vertically, one over the other */
