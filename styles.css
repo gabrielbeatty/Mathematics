@@ -64,6 +64,7 @@ a.site-logo {
     ul {
      
         display: flex; 
+        padding:0%;
         height:min-content;
         font-size: 16px; 
         max-width: fit-content;        
