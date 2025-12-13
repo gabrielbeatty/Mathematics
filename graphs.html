@@ -34,19 +34,18 @@ ul {
   margin: 2vw;
   margin-left: 10vw;
   padding: 0;
-
-
+  /* Add this line: */
+  display: flex; 
 }
 
 ul li a {
   border: 1px solid black;
-  display: block;
+  /* Remove display: block here, as flex handles the layout */
   font-size: 1.5rem;
   color: black;
   padding: 1rem;
   text-decoration: none;
 }
-
 ul li a:hover {
   background-color: white;
 }
