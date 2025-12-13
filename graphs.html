@@ -35,9 +35,18 @@ ul {
   margin-left: 10vw;
   padding: 0;
   /* Add this line: */
-  display: flex; 
+  display: inline-flex; 
 }
-
+@media screen and (max-width: 768px) { 
+    ul {
+        max-width: 100%; 
+        width:auto;
+        height:auto;            /* Use full width of the screen */
+        display: flex;           /* Keep display as flex to use flex properties */
+        flex-direction: column;  /* Stack items vertically, one over the other */
+        align-items: stretch;    /* Ensure all links/buttons span the full width */
+    }
+}
 ul li a {
   border: 1px solid black;
   /* Remove display: block here, as flex handles the layout */
@@ -46,6 +55,7 @@ ul li a {
   padding: 1rem;
   text-decoration: none;
 }
+
 ul li a:hover {
   background-color: white;
 }
