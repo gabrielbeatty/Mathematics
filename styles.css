@@ -67,6 +67,7 @@ a.site-logo {
         height: auto !important; /* Forces the height to be determined by content */
         min-height: initial !important; /* Removes any minimum height constraint */
         padding: 0 !important; /* Removes padding from the parent itself */
+        margin: 0 !important;
     }
     ul {
      
