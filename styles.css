@@ -80,22 +80,14 @@ a.site-logo {
         list-style-type: none;
     }
     ul li {
-        margin: 0!important;            /* **Removes default margins on the LI elements** */
+        margin: 0!important;           
         padding: 0!important; 
 
-        max-height: min-content;           /* Ensures no extra padding on the LI elements */
-        /* Optional: Add a subtle border to visualize how slim the items are */
-        /* border-bottom: 1px solid #ccc; */
+        max-height: min-content;
     }
 
        
-    }
-
-
-
-
-
-
+}
 .image {
     max-width: 30vw;
     margin-left: 30vw;
