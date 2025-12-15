@@ -93,3 +93,9 @@ a.site-logo {
     margin-left: 30vw;
     margin-right: 30vw;
 }
+#mathForm {
+    width: 50%;         /* Or any width less than 100% */
+    margin-left: auto;  /* Centers horizontally */
+    margin-right: auto; /* Centers horizontally */
+    display: block;     /* Ensures margin auto works correctly */
+}
