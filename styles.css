@@ -97,6 +97,11 @@ a.site-logo {
     margin-left: 30vw;
     margin-right: 30vw;
 }
+#mathForm h2 {
+    background-color: black;
+    margin: 0;                /* remove default extra spacing */
+    padding: 0.5rem;
+  }
 #mathForm {
     display: flex;
     flex-direction: column;
