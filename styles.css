@@ -113,12 +113,12 @@ a.site-logo {
 #answer {
     display:flex;
     margin-left: 15vw;
-    font-size: 1.5rem;
+    font-size: 1.0rem;
     gap:2rem;
 }
 .footer-text {
     display:block;
     text-align: right;     
-    font-size: 1.2rem;    
+    font-size: .75rem;    
     background-color: #f5e427;         
   }
