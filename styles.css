@@ -116,6 +116,11 @@ a.site-logo {
     font-size: 1.25rem;
     gap:2rem;
 }
+.submit-btn:hover {
+    background-color: #45a049;    /* black background on hover */
+    color: black;            /* yellow text on hover */
+    transform: scale(1.05);    /* slightly enlarges the button */
+  }
 .footer-text {
     display:block;
     text-align: right;     
