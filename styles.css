@@ -100,5 +100,7 @@ a.site-logo {
     width: 50%; 
 }
 #answer {
+    display:flex;
     margin-left: 15vw;
+    font-size: 1.5rem;
 }
