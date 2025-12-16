@@ -44,7 +44,7 @@ a.button-link {
 a.button-link:hover {
     background-color: #45a049;
   }
-  
+
 a.site-logo {
   max-width: 100px;
   height: auto;    
@@ -107,4 +107,7 @@ a.site-logo {
     display:flex;
     margin-left: 15vw;
     font-size: 1.5rem;
+}
+footer {
+    background-color: #f5e427;
 }
