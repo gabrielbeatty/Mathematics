@@ -108,6 +108,8 @@ a.site-logo {
     margin-left: 15vw;
     font-size: 1.5rem;
 }
-footer {
-    background-color: #f5e427;
-}
+.footer-text {
+    text-align: right;     
+    font-size: 1.2rem;    
+    color: #f5e427;         
+  }
