@@ -113,7 +113,7 @@ a.site-logo {
 #answer {
     display:flex;
     margin-left: 15vw;
-    font-size: 1.0rem;
+    font-size: 1.25rem;
     gap:2rem;
 }
 .footer-text {
