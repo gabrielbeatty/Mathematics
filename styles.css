@@ -41,6 +41,10 @@ a.button-link {
   margin-right: auto;
   text-decoration: none;
 }
+a.button-link:hover {
+    background-color: #45a049;
+  }
+  
 a.site-logo {
   max-width: 100px;
   height: auto;    
