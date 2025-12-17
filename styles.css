@@ -54,7 +54,6 @@ a.site-logo {
 .logo-title-group {
     font-size: 2rem;
     display: flex;
-    align-items: auto;
     margin-left: 10vw;
     margin-right: 10vw;
     gap: 10vw;          
