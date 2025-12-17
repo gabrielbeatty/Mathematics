@@ -67,9 +67,9 @@ a.site-logo {
 
 @media screen and (max-width: 768px) { 
     .mainNav { /* Target the parent container */
-        height: auto !important; /* Forces the height to be determined by content */
-        min-height: initial !important; /* Removes any minimum height constraint */
-        padding: 0 !important; /* Removes padding from the parent itself */
+        height: auto !important;
+        min-height: initial !important; 
+        padding: 0 !important; 
         margin: 0 !important;
     }
     ul {
@@ -116,9 +116,9 @@ a.site-logo {
     gap:2rem;
 }
 .submit-btn:hover {
-    background-color: #45a049;    /* black background on hover */
-    color: black;            /* yellow text on hover */
-    transform: scale(1.05);    /* slightly enlarges the button */
+    background-color: #45a049;   
+    color: black;            
+    transform: scale(1.05);   
   }
 .footer-text {
     display:block;
